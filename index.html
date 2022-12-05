@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"> 
+        <title>SeaWorld</title>
+        <meta name="viewport" content="initial-scale=1">
+        <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+              @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap');
+                body{
+                max-width: 100%;
+                max-height: 100%;
+                background-color: #0F1B33;
+                margin: auto;
+                font-family: 'Barlow Semi Condensed', sans-serif;
+
+
+                }
+
+                .header1{
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                }
+
+                .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+                background-color: #13A5D3;
+                }
+
+                .sticky + .sectionm {
+                padding-top: 102px;
+                
+                }
+
+                #header{
+                display: flex;
+                justify-content: center;
+                }
+
+                #header li{
+                list-style-type: none;
+                margin: 15px 10px;
+                }
+
+                #header li a{
+                color: white ;
+                font-size: 14px;
+                padding: 8px;
+                text-decoration-color: white;
+                text-decoration-line: none;
+                }
+
+                li #iconuser{
+                color: #0F1B33;
+                margin-right: 20px;
+
+                }
+
+                li a:hover{
+                color: white ;
+                background-color: #0F1B33;
+                border-radius:10px;
+                padding: 8px;
+                z-index: 5;
+
+                }
+
+                li .home{
+                color: white ;
+                background-color: #0F1B33;
+                border-radius:10px;
+                }
+
+
+                .homepage1{
+                background-image: url('component/homepage.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-attachment: fixed;
+
+                }
+                .imgp{
+                width: 500px;
+                border-radius:  100px;
+                }
+
+                .container{
+                margin: 0 auto ;
+                width: 90%;
+                height: 700px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                }
+
+                .isihome{
+                max-width: 600px;
+                display: flexbox;
+                margin-left: 60px;
+
+                }
+
+
+                h5{
+                font-family: Poppins;
+                font-size: 12px;
+                line-height: 0.1;
+                color: white;
+                }
+
+                h1{
+                font-family:Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans';
+                font-size: 35px;
+                line-height: 0.8;
+                color: white;
+                }
+
+                h4{
+                font-family: Poppins;
+                font-size: 15px;
+                text-align: justify;
+                color: white;
+                
+                }
+                .logo{
+                  margin-left: 20px;  
+                }
+
+                button {
+                color: white;
+                margin-top: 20px;
+                padding: 4px 40px;
+                border-radius: 30px;
+                background-color:#13A5D3;
+                border: none;
+
+                }
+
+
+
+                .sectionm{
+
+                width: 100%;
+                height: 100%;
+                }
+
+                .headline2{
+                text-align: center;
+                color: #13A5D3;
+                margin: 100px 0px 25px 0px;
+                }
+
+                .quotes{
+                text-align: center;
+                color: white;
+                font-size: 11px;
+                margin-bottom: 60px;
+                }
+
+                .container2 i{
+                color: #13A5D3;
+                padding:45px 120px;
+                border:2px solid #13A5D3;
+                border-radius: 12px;
+                margin-bottom: 8px;
+
+                }
+
+                .container2{
+                margin: 0 auto;
+                width: 1280px;
+                height:400px;
+                display: flex;
+                justify-content: space-between;
+                }
+
+                .box1,.box2,.box3{
+                width: 325px;
+                height: 200px;
+                display: inline-block;
+                text-align: center;
+
+                }
+
+
+
+                p{ 
+                color: white;
+                font-family: Poppins;
+                font-size: 14px;
+                text-align: center;
+
+                }
+
+
+
+                .section2{
+                margin: 100px 0px;
+                }
+
+                .container3{
+                margin: 0 auto ;
+                width: 800px;
+                height:400px;
+                display:flex ;
+                justify-content: space-between;
+                align-items: center;
+
+                }
+
+                .butuh{
+                width: 400px;
+                height: 300px;
+                justify-content: right;
+                }
+
+                .text3{
+                text-align: left;
+                font-size: 15px;
+                }
+
+                #sosmed{
+                color: white;
+                border: none;
+                padding: 12px;
+                }
+
+                .headline3{
+                margin: 0px 0px 60px 0px;
+                font-size: 45px;
+                }
+
+                .text3{
+                font-size: 18px;
+                margin-bottom: 0px;
+                }
+
+                .kunjungi{
+                color: white;
+                margin-top: 20px;
+                padding: 0px 40px;
+                border-radius: 30px;
+                background-color:#13A5D3;
+                border: none;
+                font-size: 12px;
+                }
+
+                .imgw{
+                width: 335px;
+                }
+
+                .sosmed{
+                display: flex;
+                justify-content: flex-end;
+                }
+
+                .isihome button a{
+                text-decoration-color: white;
+                text-decoration-line: none;
+                }
+
+                .section2 .butuh a{
+                text-decoration-color: white;
+                text-decoration-line: none;
+                }
+        </style>
+
+    </head>
+
+    <body type="default">
+        <section class="homepage1">
+            <div id='header1' class="header1">
+                    <div class="logo">
+                        <h4>SeaWorld</h4>
+                    </div>
+                    <div id="header">
+                        <li><a class="home" >Home</a></li>
+                        <li><a href="#login"  onclick="alert('Silahkan Login Dahulu !!!')" >Prosedur</a></li>
+                        <li><a href="#login"  onclick="alert('Silahkan Login Dahulu !!!')" >Bahan</a></li>
+                        <li><a href="#login"  onclick="alert('Silahkan Login Dahulu !!!')" >Contact</a></li>
+                        <li><a href="#login"  onclick="alert('Silahkan Login Dahulu !!!')">Testimoni</a></li>
+                    </div>
+                    <div>
+                        <li type="none"><i onclick="alert('Silahkan Login Dahulu !!!')" id="iconuser" class="fa-solid fa-user fa-1x"></i></li>
+                    </div>
+                </div>
+   
+            <div class="container">
+                <div class="isihome">
+                    <h5>SeaWorld</h5>
+                    <h1><b>Budidaya ikan lebih efektif </b></h1>
+                    <h4>
+                        Pengelolaan ikan dengan tata cara yang terjamin dan telah terbukti 
+                        dengan hasil yang memuaskan dan membuatnya menjadi lebih efektif dalam melakukan budidaya.
+                        Daftarkan diri anda dan jadilah pengusaha sukses budidaya ikan.
+                    </h4>
+                    <form action="">
+                        <button type="button" name="regis"><a href="regis.php"><p>Registrasi</p></a></button>
+                    </form>
+                </div>
+                 <img class="imgp" src="component/ikan.png" alt="fotoikan">
+            </div>
+        </section>
+
+
+        <section class="sectionm">
+            <nav>
+                
+            </nav>
+            <h1 class="headline2">SeaWorld</h1>
+            <h4 class="quotes">Keindahan laut yang harus dilestarikan dengan kita sebagai sesama makhluk <br>
+            Ayo manfaatkan dan dapatkan keuntungannya</h4>
+            <div class="container2">
+                <div class="box1">
+                    <i class="fa-solid fa-fish-fins fa-5x"></i> 
+                    <p>Budidaya ikan terbaik<br>
+                    dengan banyak pilihan yang<br>
+                    dapat anda pilih dan pelajari</p>
+                </div>
+                <div class="box2">
+                    <i class="fa-sharp fa-solid fa-bag-shopping fa-5x" ></i>
+                    <p>Bahan bahan yang tersedia sekaligus dalam <br>
+                    tanpa harus lelah mencari<br>
+                    atau mengumpulkan bahan</p>
+                </div>
+                <div class="box3">
+                    <i class="fa-solid fa-thumbs-up fa-5x"></i>
+                    <p>Prosesdur yang sudah terjamin<br>
+                    dari berbagai macam sumber<br>
+                    yang lebih efektif dan efisien</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section2">
+            <div class="container3">
+                <img class="imgw" src="component/work.png">
+                <div class="butuh">
+                    <h1 class="headline3">Sudah punya akun?</h1>
+                    <p class="text3">Yuk jelajahi lebih jauh<br>
+                    mengenai hal hal baru dunia laut. jadikan <br>
+                    sebuah pengahasilan yang tiada ruginya<br>
+                    Segera login dan bergabung bersama kami.
+                    </p>
+                    <form >
+                        <button type="button" id="login" class="kunjungi"><a href="login.php"><p>Login</p></a></button>
+                    </form>
+                    <div class="sosmed">
+                        <i id="sosmed"  class="fa-brands fa-facebook fa-1x"></i>
+                        <i id="sosmed"  class="fa-brands fa-instagram fa-1x"></i>
+                        <i id="sosmed"  class="fa-brands fa-twitter fa-1x"></i>
+                        <i id="sosmed"  class="fa-brands fa-linkedin fa-1x"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <script>
+        window.onscroll = function() {myFunction()};
+
+        var header = document.getElementById("header1");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+        if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+        } else {
+            header.classList.remove("sticky");
+        }
+        }
+    </script>
+    </body>
+</html>
